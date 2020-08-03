@@ -132,11 +132,7 @@ table(data_final)
  row_spec(row=c(no), bold = F, color= 'darkred') 
 # column_spec(c(1,3:6), bold = F, color= 'black') %>%
    
- simple <- read_html(
-     "https://www.lanacion.com.ar/politica/el-enojo-sergio-berni-reunion-definir-nueva-nid2372560")
-   simple %>%
-     html_nodes(".capital") %>% 
-     html_text()
+
    
    
    
